@@ -4,9 +4,11 @@ package chapter_01;
 public class Pyramid {
 
   public static void main(String[] args) {
+    int numberOfBricks = 9;
 
-    for (int i = 1; i <= 9; i = i + 2) {
-      int space = (9 - i) / 2;
+    for (int i = 1; i <= numberOfBricks; i = i + 2) {
+      int space = (numberOfBricks - i) / 2;
+
       for (int j = 0; j < space; j++) {
         System.out.print(" ");
       }
