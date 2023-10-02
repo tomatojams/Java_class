@@ -5,7 +5,7 @@ public class _07_TypeCasting {
 
   public static void main(String[] args) {
     // 형전환 (Type Casting)
-    //  정수형에서 실수형으로
+    // 정수형에서 실수형으로
     // 실수형에서 정수형으로
 
     int score = 93;
@@ -27,7 +27,7 @@ public class _07_TypeCasting {
     // 변수에 형변환된 데이터 집어넣기
     double convertecdScoreDouble = score; // 191 -> 191.0
     // int -> long -> float -> double (자동형변환)
-
+    System.out.println(convertecdScoreDouble);
     // int convertedScoreInt = score_d; 에러
     // double -> float -> long -> int (수동형변환)
 
@@ -47,7 +47,7 @@ public class _07_TypeCasting {
     double d = Double.parseDouble("99.9"); // String -> double (Double 클래스의 메소드 활용)
     System.out.println(d);
 
-    //    int error = Integer.parseInt("자바");
+    // int error = Integer.parseInt("자바");
 
   }
 }

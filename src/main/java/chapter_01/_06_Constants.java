@@ -9,6 +9,6 @@ public class _06_Constants {
     // KR_COUNTRY_CODE = "+8282";
     System.out.println(KR_COUNTRY_CODE);
 
-    final double PI = 3.141592;
+    // final double PI = 3.141592;
   }
 }
